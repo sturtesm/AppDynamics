@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+export JAVA_OPTS_EXT="-Dappdynamics.agent.nodeName=${OPENSHIFT_GEAR_UUID}"
+export JAVA_OPTS_EXT="$JAVA_OPTS_EXT -XX:-UseSplitVerifier -Djboss.modules.system.pkgs=org.jboss.byteman,com.appdynamics.,com.singularity,com.singularity."
+export JAVA_OPTS_EXT="$JAVA_OPTS_EXT -javaagent:$OPENSHIFT_REPO_DIR/AppServerAgent/javaagent.jar"
+export JAVA_OPTS_EXT="$JAVA_OPTS_EXT -Dappdynamics.agent.socket.no.local.bind=true"

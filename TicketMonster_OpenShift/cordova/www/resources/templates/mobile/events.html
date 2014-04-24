@@ -1,0 +1,27 @@
+<div data-role="header">
+    <a data-role="button" data-icon="home" href="#">Home</a>
+    <h3>Categories</h3>
+</div>
+<div data-role="content">
+    <div id="itemMenu" data-role="collapsible-set" data-inset="false">
+        <%
+        _.each(categories, function (category) {
+        %>
+        <div data-role="collapsible">
+            <h2><%= category.description %></h2>
+            <ul id="categoryMenu" data-role="listview" data-inset="true">
+            <%
+            _.each(model.models, function (model) {
+                if (model.get('category').id == category.id) {
+                %>
+                <li>
+                    <a href="#events/<%=model.attributes.id%>"><%=model.attributes.name%></a>
+                </li>
+                <% }
+            });
+            %>
+            </ul>
+        </div>
+        <% }); %>
+    </div>
+</div>
