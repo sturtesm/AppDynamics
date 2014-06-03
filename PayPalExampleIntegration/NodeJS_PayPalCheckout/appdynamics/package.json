@@ -1,0 +1,37 @@
+{
+  "name" : "appdynamics",
+  "version" : "3.8.3",
+  "description" : "Performance Profiler and Monitor",
+  "author": "AppDynamics, Inc.",
+  "homepage": "http://appdynamics.com",
+  "keywords": [
+    "profiler",
+    "profiling",
+    "tracing",
+    "cpu",
+    "heap",
+    "performance",
+    "instrumentation",
+    "response time",
+    "performance",
+    "bottlenecks",
+    "monitoring",
+    "analytics",
+    "metrics",
+    "alerts",
+    "dtrace"
+  ],
+  "contributors": [
+  ],
+  "main": "./index.js",
+  "directories": {
+    "lib" : "./lib"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node" : ">=0.8.0"
+  },
+  "licenses": [{
+  }]
+}

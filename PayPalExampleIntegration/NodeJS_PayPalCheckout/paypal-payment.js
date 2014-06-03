@@ -1,4 +1,4 @@
-'use strict'
+'use strict'; 
 
 require("appdynamics").profile({
   controllerHostName: '127.0.0.1',
@@ -6,17 +6,17 @@ require("appdynamics").profile({
   accountName: '', //Required for a controller running in multi-tenant mode.
   accountAccessKey: '', //Required for a controller running in multi-tenant mode.
   applicationName: 'PayPal ECommerce Store',
-  tierName: 'NodeJS Web Tier'
-  nodeName:'nodejs-osxltsturt', //Prefix to the full node name.
+  tierName: 'NodeJS Web Tier',
+  nodeName: 'nodejs-osxltsturt', 
   debug: true //Debug is optional; defaults to false.
  });
 
 var Client = require('node-rest-client').Client;
 var http = require('http');
 
-client = new Client();
+var client = new Client();
 
-paymentArgs ={
+var paymentArgs ={
         path:{"bearer":"bearer"}, // path substitution var
         headers:{"Accept": "text/plain", "Accept-Language": "en_US", "Content-Type": "text/plain" }
 };
@@ -52,7 +52,7 @@ var server = http.createServer(function (serverRequest, serverResponse) {
       if (data.state = "authorized") {
          serverResponse.writeHead(200, {"Content-Type": "text/plain"});
 
-         responseMsg = "" + data;
+         var responseMsg = "" + data;
 
          serverResponse.end(responseMsg);
       }
