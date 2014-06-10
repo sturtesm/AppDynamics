@@ -24,6 +24,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.ws.rs.core.MediaType;
 
 import org.apache.cxf.jaxrs.client.WebClient;
 
@@ -38,8 +39,8 @@ import org.apache.cxf.jaxrs.client.WebClient;
  * 
  */
 @SuppressWarnings("serial")
-@WebServlet("/home")
-public class HomePageServlet extends HttpServlet {
+@WebServlet("/checkout")
+public class CheckoutServlet extends HttpServlet {
 
     static String PAGE_HEADER = "<html><head><title>Welcome to Our Online PayPal Store</title></head><body>";
 
@@ -47,28 +48,46 @@ public class HomePageServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    	String response = callAuthService();
+    	String authToken = callAuthService();
+    	String paymentInfo = null;
     	
-    	response = (response == null) ? "No Response...." : response;
+    	if (authToken != null) {
+    		paymentInfo = initiatePayment(authToken);
+    		paymentInfo = authToken;
+    	}
+    	else {
+    		paymentInfo ="No Authentication Response....";
+    	}
     	
         resp.setContentType("text/html");
         PrintWriter writer = resp.getWriter();
         writer.println(PAGE_HEADER);
         writer.println("<h2>PayPal Response</h2>");
-        writer.println(response);
+        writer.println(paymentInfo);
         writer.println(PAGE_FOOTER);
         writer.close();
     }
     
     
-    private String callAuthService() {
+    private String initiatePayment(String authToken) {
     	WebClient client = 
-    			WebClient.create("http://localhost:8080").path("/jaxrs-sample/v1/paypal/auth");
+    			WebClient.create("http://localhost:8080").path("/jaxrs-sample/v1/paypal/payment/" + authToken);
+    	
+    	client.type(MediaType.TEXT_PLAIN);
+    	client.accept("text/plain", "text/html");
+    	
+    	return client.get(String.class);
+	}
+
+
+	private String callAuthService() {
+    	WebClient client = 
+		WebClient.create("http://localhost:8080").path("/jaxrs-sample/v1/paypal/auth");
     	
     	client.accept("text/plain", "text/html");
     	
-    	String response = client.get(String.class);
+    	String accessToken = client.get(String.class);
     	
-    	return response;
+    	return accessToken;
     }
 }

@@ -11,6 +11,6 @@ rm -rf ${SOURCE} ${TOMCAT}/webapps/*
 
 mvn package
 
-cp ${SOURCE} ${TOMCAT}/webapps/paypal-online-store
+cp ${SOURCE} ${TOMCAT}/webapps/paypal-online-store.war
 
 
