@@ -16,6 +16,8 @@ var http = require('http');
 
 var client = new Client();
 
+
+
 var paymentArgs ={
         path:{"bearer":"bearer"}, // path substitution var
         headers:{"Accept": "text/plain", "Accept-Language": "en_US", "Content-Type": "text/plain" }
