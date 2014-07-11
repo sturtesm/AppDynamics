@@ -23,6 +23,13 @@ TransactionNaming.prototype.init = function() {
   });
 }
 
+TransactionNaming.prototype.createHttpTransactionName = function(req, transaction) {
+    var matchName = transaction.customMatch && transaction.customMatch.btName
+    ,   namingProps = transaction.customNaming || this.namingProps;
+
+    return this.createHttpTransactionNameFromNamingScheme(req, namingProps, matchName);
+}
+
 TransactionNaming.prototype.createHttpTransactionName = function(req) {
   var self = this;
 
@@ -220,3 +227,4 @@ function parseCookies(req) {
 function trim(str) {
 	return str.replace(/^\s+|\s+$/g, '');
 }
+

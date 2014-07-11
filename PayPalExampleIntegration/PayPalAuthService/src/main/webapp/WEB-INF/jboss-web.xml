@@ -6,5 +6,5 @@
     
 
 <jboss-web>
-  <context-root>jaxrs-sample</context-root>
+  <context-root>service</context-root>
 </jboss-web>

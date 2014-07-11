@@ -1,0 +1,110 @@
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:09:18,147  INFO MetricSender - Sending REST request - URL [/controller/instance/32/metricregistration]
+<request>
+<node-id>272</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Used %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Classes|Total Classes Loaded"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="JVM|Process CPU Usage %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Very Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Stall Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Process CPU Burnt (ms/min)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Slow End to End Messages"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Classes|Current Loaded Class Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Average End to End Latency (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Used %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Calls per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Normal Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Threads|Current No. of Threads"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|End to End Messages per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<account-key>0c10b049-65ce-4ad8-8c48-b9258b3b3d1a</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:09:18,161  INFO MetricSender - REST Response Received - URL [/controller/instance/32/metricregistration]
+<request>
+<metric	id="5224"	name="JVM|Classes|Current Loaded Class Count"/>
+<metric	id="5296"	name="BTM|Application Summary|Calls per Minute"/>
+<metric	id="5230"	name="JVM|Memory:Non-Heap|Max Available (MB)"/>
+<metric	id="5298"	name="JVM|Process CPU Usage %"/>
+<metric	id="5287"	name="BTM|Application Summary|Infrastructure Errors per Minute"/>
+<metric	id="5233"	name="JVM|Memory:Heap|Current Usage (MB)"/>
+<metric	id="5234"	name="JVM|Memory:Non-Heap|Current Usage (MB)"/>
+<metric	id="5285"	name="BTM|Application Summary|Number of Very Slow Calls"/>
+<metric	id="5237"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"/>
+<metric	id="5297"	name="BTM|Application Summary|End to End Messages per Minute"/>
+<metric	id="5286"	name="BTM|Application Summary|Normal Average Response Time (ms)"/>
+<metric	id="5239"	name="JVM|Memory:Heap|Committed (MB)"/>
+<metric	id="5290"	name="BTM|Application Summary|Number of Slow End to End Messages"/>
+<metric	id="5225"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"/>
+<metric	id="5226"	name="JVM|Memory:Non-Heap|Committed (MB)"/>
+<metric	id="5227"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"/>
+<metric	id="5228"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"/>
+<metric	id="5229"	name="JVM|Classes|Total Classes Loaded"/>
+<metric	id="5299"	name="BTM|Application Summary|Number of Slow Calls"/>
+<metric	id="5291"	name="BTM|Application Summary|Average Response Time (ms)"/>
+<metric	id="5231"	name="JVM|Garbage Collection|Number of Major Collections Per Min"/>
+<metric	id="5292"	name="BTM|Application Summary|Average End to End Latency (ms)"/>
+<metric	id="5232"	name="JVM|Memory:Heap|Max Available (MB)"/>
+<metric	id="5235"	name="JVM|Process CPU Burnt (ms/min)"/>
+<metric	id="5236"	name="JVM|Threads|Current No. of Threads"/>
+<metric	id="5300"	name="BTM|Application Summary|Stall Count"/>
+<metric	id="5238"	name="JVM|Memory:Heap|Used %"/>
+<metric	id="5240"	name="JVM|Memory:Non-Heap|Used %"/>
+<metric	id="5293"	name="BTM|Application Summary|Errors per Minute"/>
+</request>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:10:18,143  INFO MetricSender - Sending REST request - URL [/controller/instance/32/metricregistration]
+<request>
+<node-id>272</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<account-key>0c10b049-65ce-4ad8-8c48-b9258b3b3d1a</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:10:18,152  INFO MetricSender - REST Response Received - URL [/controller/instance/32/metricregistration]
+<request>
+<metric	id="5408"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Max Available (MB)"/>
+<metric	id="5403"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Committed (MB)"/>
+<metric	id="5406"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Max Available (MB)"/>
+<metric	id="5401"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Current Usage (MB)"/>
+<metric	id="5409"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Committed (MB)"/>
+<metric	id="5404"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Current Usage (MB)"/>
+<metric	id="5400"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Current Usage (MB)"/>
+<metric	id="5399"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Current Usage (MB)"/>
+<metric	id="5397"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Committed (MB)"/>
+<metric	id="5410"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Max Available (MB)"/>
+<metric	id="5411"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Max Available (MB)"/>
+<metric	id="5402"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Max Available (MB)"/>
+<metric	id="5405"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Committed (MB)"/>
+<metric	id="5398"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Committed (MB)"/>
+<metric	id="5407"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Current Usage (MB)"/>
+</request>
+

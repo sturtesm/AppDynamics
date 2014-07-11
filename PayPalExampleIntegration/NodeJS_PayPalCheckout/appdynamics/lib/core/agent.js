@@ -24,6 +24,7 @@ var ConfigManager = require('../transactions/config-manager').ConfigManager;
 var TransactionRegistry = require('../transactions/transaction-registry').TransactionRegistry;
 var TransactionNaming = require('../transactions/transaction-naming').TransactionNaming;
 var TransactionReporter = require('../transactions/transaction-reporter').TransactionReporter;
+var TransactionRules = require('../transactions/transaction-rules').TransactionRules;
 var Correlation = require('../transactions/correlation').Correlation;
 var Profiler = require('../profiler/profiler').Profiler;
 var NamedTransactions = require('../profiler/named-transactions').NamedTransactions;
@@ -82,6 +83,7 @@ function Agent() {
   this.transactionRegistry = new TransactionRegistry(this);
   this.transactionNaming = new TransactionNaming(this);
   this.transactionReporter = new TransactionReporter(this);
+  this.transactionRules = new TransactionRules(this);
   this.correlation = new Correlation(this);
   this.profiler = new Profiler(this);
   this.namedTransactions = new NamedTransactions(this);
@@ -140,6 +142,7 @@ Agent.prototype.init = function(opts) {
   self.transactionRegistry.init();
   self.transactionNaming.init();
   self.transactionReporter.init();
+  self.transactionRules.init();
   self.correlation.init();
 
   // Metrics aggregator should be initialize before

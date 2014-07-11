@@ -48,7 +48,6 @@ TransactionReporter.prototype.init = function() {
       transaction.ignore = true;
       self.agent.logger.log("cannot create transaction name");
       return;
-    }
 
     transaction.guid = self.uuidInstance + (self.nextRequestId++);
 
@@ -65,7 +64,12 @@ TransactionReporter.prototype.init = function() {
       }
     }
     else {
-      transaction.name = naming.createHttpTransactionName(req);
+      if(!rules.accept(req, transaction)) {
+        transaction.ignore = true;
+        return;
+      }
+
+      transaction.name = naming.createHttpTransactionName(req, transaction);
       self.agent.logger.log('transaction name: ' + transaction.name)
 
       if(!transaction.name) {

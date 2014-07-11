@@ -1,0 +1,443 @@
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:51:58,292  INFO MetricSender - Sending REST request - URL [/controller/instance/32/metricregistration]
+<request>
+<node-id>272</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|End to End Messages per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Used %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Threads|Current No. of Threads"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Normal Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Classes|Total Classes Loaded"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Very Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Slow End to End Messages"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Process CPU Burnt (ms/min)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Calls per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Used %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Average End to End Latency (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Classes|Current Loaded Class Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Stall Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="JVM|Process CPU Usage %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<account-key>0c10b049-65ce-4ad8-8c48-b9258b3b3d1a</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:51:58,302  INFO MetricSender - REST Response Received - URL [/controller/instance/32/metricregistration]
+<request>
+<metric	id="5224"	name="JVM|Classes|Current Loaded Class Count"/>
+<metric	id="5296"	name="BTM|Application Summary|Calls per Minute"/>
+<metric	id="5298"	name="JVM|Process CPU Usage %"/>
+<metric	id="5230"	name="JVM|Memory:Non-Heap|Max Available (MB)"/>
+<metric	id="5287"	name="BTM|Application Summary|Infrastructure Errors per Minute"/>
+<metric	id="5233"	name="JVM|Memory:Heap|Current Usage (MB)"/>
+<metric	id="5234"	name="JVM|Memory:Non-Heap|Current Usage (MB)"/>
+<metric	id="5285"	name="BTM|Application Summary|Number of Very Slow Calls"/>
+<metric	id="5237"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"/>
+<metric	id="5297"	name="BTM|Application Summary|End to End Messages per Minute"/>
+<metric	id="5286"	name="BTM|Application Summary|Normal Average Response Time (ms)"/>
+<metric	id="5239"	name="JVM|Memory:Heap|Committed (MB)"/>
+<metric	id="5290"	name="BTM|Application Summary|Number of Slow End to End Messages"/>
+<metric	id="5226"	name="JVM|Memory:Non-Heap|Committed (MB)"/>
+<metric	id="5225"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"/>
+<metric	id="5227"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"/>
+<metric	id="5229"	name="JVM|Classes|Total Classes Loaded"/>
+<metric	id="5228"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"/>
+<metric	id="5299"	name="BTM|Application Summary|Number of Slow Calls"/>
+<metric	id="5291"	name="BTM|Application Summary|Average Response Time (ms)"/>
+<metric	id="5231"	name="JVM|Garbage Collection|Number of Major Collections Per Min"/>
+<metric	id="5292"	name="BTM|Application Summary|Average End to End Latency (ms)"/>
+<metric	id="5232"	name="JVM|Memory:Heap|Max Available (MB)"/>
+<metric	id="5235"	name="JVM|Process CPU Burnt (ms/min)"/>
+<metric	id="5236"	name="JVM|Threads|Current No. of Threads"/>
+<metric	id="5300"	name="BTM|Application Summary|Stall Count"/>
+<metric	id="5238"	name="JVM|Memory:Heap|Used %"/>
+<metric	id="5293"	name="BTM|Application Summary|Errors per Minute"/>
+<metric	id="5240"	name="JVM|Memory:Non-Heap|Used %"/>
+</request>
+
+[AD Thread Pool-Global0] 10 Jul 2014 13:52:18,724  INFO ErrorProcessor - REST - Sending Binary request - URL [/controller/instance/32/btregistration] 
+********BT Registration Data********
+<account-key>
+0c10b049-65ce-4ad8-8c48-b9258b3b3d1a
+<account-key/>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='Page Not Found : 404', name=Page Not Found : 404, diagnosticType=ERROR, configEntities=null, summary='HTTP error code : 404'}>
+<application-diagnostic-data/>
+<node-id>
+272
+<node-id/>
+
+[AD Thread Pool-Global0] 10 Jul 2014 13:52:18,728  INFO ErrorProcessor - REST
+Sending Binary payload Size : 1266 bytes
+[AD Thread Pool-Global0] 10 Jul 2014 13:52:18,738  INFO ErrorProcessor - REST - Reading Binary response - URL [null] - Size [3981]
+********BT Registration Data********
+<registered-backends>
+Size : 0
+<registered-backends/>
+<business-transactions>
+Size : 0
+<business-transactions/>
+<application-diagnostic-data>
+Size : 1
+<ERROR>::<{Page Not Found : 404=552}>
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<resolved-backend-calls>
+Size : 13
+<305>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:10.8.1.2 - (1095077), Name:URL, Value:jdbc:derby:./mmc-data/db, Name:VENDOR, Value:Apache Derby]]>
+<304>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80]]>
+<307>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:default:connection, Name:VENDOR, Value:H2]]>
+<306>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:osxltsturt.att.net, Name:PORT, Value:7777]]>
+<309>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:h2:./mmc-data/tracking/persistency, Name:VENDOR, Value:H2]]>
+<308>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getAgentsRunning, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<311>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getFlows, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.FlowService, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/flowService]]>
+<310>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getInfo, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<312>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:hasClusterEntitlement, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3_1.service.ClusterNodeSer, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3_1/clusterNodeService]]>
+<148>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/oauth2/token]]>
+<149>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/payment]]>
+<150>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/authorization]]>
+<302>::<NodeResolutionInfo[exitPointType=DB, properties=[Name:Database, Value:test, Name:Server Pool, Value:localhost:27017, Name:Vendor, Value:MONGODB]]>
+<resolved-backend-calls/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:52:58,289  INFO MetricSender - Sending REST request - URL [/controller/instance/32/metricregistration]
+<request>
+<node-id>272</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Diagnostic Data|Error:552|Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Exceptions per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Component:221|Exceptions per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Error Page Redirects per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Component:221|Error Page Redirects per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|HTTP Error Codes per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Component:221|HTTP Error Codes per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<account-key>0c10b049-65ce-4ad8-8c48-b9258b3b3d1a</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:52:58,301  INFO MetricSender - REST Response Received - URL [/controller/instance/32/metricregistration]
+<request>
+<metric	id="5294"	name="BTM|Application Summary|Error Page Redirects per Minute"/>
+<metric	id="5288"	name="BTM|Application Summary|HTTP Error Codes per Minute"/>
+<metric	id="16246"	name="BTM|Application Summary|Component:221|Exceptions per Minute"/>
+<metric	id="5408"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Max Available (MB)"/>
+<metric	id="5406"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Max Available (MB)"/>
+<metric	id="5403"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Committed (MB)"/>
+<metric	id="5401"	name="JVM|Garbage Collection|Memory Pools:PS Perm Gen|Current Usage (MB)"/>
+<metric	id="5409"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Committed (MB)"/>
+<metric	id="5404"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Current Usage (MB)"/>
+<metric	id="5400"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Current Usage (MB)"/>
+<metric	id="5399"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Current Usage (MB)"/>
+<metric	id="5397"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Committed (MB)"/>
+<metric	id="5410"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Max Available (MB)"/>
+<metric	id="5411"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Max Available (MB)"/>
+<metric	id="16264"	name="BTM|Application Diagnostic Data|Error:552|Errors per Minute"/>
+<metric	id="5301"	name="BTM|Application Summary|Exceptions per Minute"/>
+<metric	id="5402"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Max Available (MB)"/>
+<metric	id="16265"	name="BTM|Application Summary|Component:221|HTTP Error Codes per Minute"/>
+<metric	id="5398"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Committed (MB)"/>
+<metric	id="5407"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Current Usage (MB)"/>
+<metric	id="16262"	name="BTM|Application Summary|Component:221|Error Page Redirects per Minute"/>
+<metric	id="5405"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Committed (MB)"/>
+</request>
+
+[AD Thread Pool-Global1] 10 Jul 2014 13:54:08,721  INFO ErrorProcessor - REST - Sending Binary request - URL [/controller/instance/32/btregistration] 
+********BT Registration Data********
+<account-key>
+0c10b049-65ce-4ad8-8c48-b9258b3b3d1a
+<account-key/>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='HTTP Error Code : 415', name=HTTP Error Code : 415, diagnosticType=ERROR, configEntities=null, summary='HTTP error code : 415'}>
+<application-diagnostic-data/>
+<node-id>
+272
+<node-id/>
+
+[AD Thread Pool-Global1] 10 Jul 2014 13:54:08,724  INFO ErrorProcessor - REST
+Sending Binary payload Size : 1267 bytes
+[AD Thread Pool-Global1] 10 Jul 2014 13:54:08,735  INFO ErrorProcessor - REST - Reading Binary response - URL [null] - Size [3982]
+********BT Registration Data********
+<registered-backends>
+Size : 0
+<registered-backends/>
+<business-transactions>
+Size : 0
+<business-transactions/>
+<application-diagnostic-data>
+Size : 1
+<ERROR>::<{HTTP Error Code : 415=555}>
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<resolved-backend-calls>
+Size : 13
+<305>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:10.8.1.2 - (1095077), Name:URL, Value:jdbc:derby:./mmc-data/db, Name:VENDOR, Value:Apache Derby]]>
+<304>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80]]>
+<307>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:default:connection, Name:VENDOR, Value:H2]]>
+<306>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:osxltsturt.att.net, Name:PORT, Value:7777]]>
+<309>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:h2:./mmc-data/tracking/persistency, Name:VENDOR, Value:H2]]>
+<308>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getAgentsRunning, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<311>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getFlows, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.FlowService, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/flowService]]>
+<310>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getInfo, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<312>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:hasClusterEntitlement, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3_1.service.ClusterNodeSer, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3_1/clusterNodeService]]>
+<148>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/oauth2/token]]>
+<149>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/payment]]>
+<150>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/authorization]]>
+<302>::<NodeResolutionInfo[exitPointType=DB, properties=[Name:Database, Value:test, Name:Server Pool, Value:localhost:27017, Name:Vendor, Value:MONGODB]]>
+<resolved-backend-calls/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:54:58,290  INFO MetricSender - Sending REST request - URL [/controller/instance/32/metricregistration]
+<request>
+<node-id>272</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Component:221|Stall Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Component:221|Infrastructure Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Component:221|Number of Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Component:221|Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Diagnostic Data|Error:555|Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:357|Component:221|Average Wait Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:357|Component:221|Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:357|Component:221|Normal Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|BTs|BT:357|Component:221|Stall Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:357|Component:221|Average Block Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:357|Component:221|Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="BTM|BTs|BT:357|Component:221|Number of Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:357|Component:221|Average CPU Used (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Component:221|Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Component:221|Number of Very Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:357|Component:221|Calls per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:357|Component:221|Average Request Size"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Component:221|Calls per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="BTM|BTs|BT:357|Component:221|Number of Very Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<account-key>0c10b049-65ce-4ad8-8c48-b9258b3b3d1a</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:54:58,301  INFO MetricSender - REST Response Received - URL [/controller/instance/32/metricregistration]
+<request>
+<metric	id="16245"	name="BTM|Application Summary|Component:221|Infrastructure Errors per Minute"/>
+<metric	id="16268"	name="BTM|Application Summary|Component:221|Number of Very Slow Calls"/>
+<metric	id="16263"	name="BTM|Application Summary|Component:221|Stall Count"/>
+<metric	id="16300"	name="BTM|Application Diagnostic Data|Error:555|Errors per Minute"/>
+<metric	id="16280"	name="BTM|BTs|BT:357|Component:221|Average Wait Time (ms)"/>
+<metric	id="16274"	name="BTM|BTs|BT:357|Component:221|Errors per Minute"/>
+<metric	id="16278"	name="BTM|BTs|BT:357|Component:221|Average CPU Used (ms)"/>
+<metric	id="16261"	name="BTM|Application Summary|Component:221|Calls per Minute"/>
+<metric	id="16301"	name="BTM|BTs|BT:357|Component:221|Average Request Size"/>
+<metric	id="16270"	name="BTM|Application Summary|Component:221|Average Response Time (ms)"/>
+<metric	id="16242"	name="BTM|Application Summary|Component:221|Errors per Minute"/>
+<metric	id="16299"	name="BTM|BTs|BT:357|Component:221|Normal Average Response Time (ms)"/>
+<metric	id="16276"	name="BTM|BTs|BT:357|Component:221|Number of Very Slow Calls"/>
+<metric	id="16279"	name="BTM|BTs|BT:357|Component:221|Average Block Time (ms)"/>
+<metric	id="16266"	name="BTM|Application Summary|Component:221|Number of Slow Calls"/>
+<metric	id="16277"	name="BTM|BTs|BT:357|Component:221|Stall Count"/>
+<metric	id="16273"	name="BTM|BTs|BT:357|Component:221|Calls per Minute"/>
+<metric	id="16272"	name="BTM|BTs|BT:357|Component:221|Average Response Time (ms)"/>
+<metric	id="16275"	name="BTM|BTs|BT:357|Component:221|Number of Slow Calls"/>
+</request>
+
+[AD Thread Pool-Global0] 10 Jul 2014 13:55:28,695  INFO BusinessTransactionRegistry - REST - Setting BTs to register : [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, internalName=/jaxrs-sample/, componentId=221 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:segment-length, Value:2, Name:uri-length, Value:first-n-segments]}}, createdOn=null, background=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+[AD Thread Pool-Global0] 10 Jul 2014 13:55:28,695  INFO BusinessTransactionRegistry - REST - Sending Binary request - URL [/controller/instance/32/btregistration] 
+********BT Registration Data********
+<account-key>
+0c10b049-65ce-4ad8-8c48-b9258b3b3d1a
+<account-key/>
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, internalName=/jaxrs-sample/, componentId=221 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:segment-length, Value:2, Name:uri-length, Value:first-n-segments]}}, createdOn=null, background=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+<business-transactions/>
+<node-id>
+272
+<node-id/>
+
+[AD Thread Pool-Global0] 10 Jul 2014 13:55:28,699  INFO BusinessTransactionRegistry - REST
+Sending Binary payload Size : 2475 bytes
+[AD Thread Pool-Global0] 10 Jul 2014 13:55:28,765  INFO BusinessTransactionRegistry - REST - Reading Binary response - URL [null] - Size [6174]
+********BT Registration Data********
+<registered-backends>
+Size : 0
+<registered-backends/>
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=395, name=/jaxrs-sample/, entryPointType=SERVLET, internalName=/jaxrs-sample/, componentId=221 ,applicationId=11, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:segment-length, Value:2, Name:uri-length, Value:first-n-segments]}}, createdOn=null, background=false, configuration=null, createdNodeId=272, enabledForEUM=false, eumAutoEnablePossible=null}>
+<business-transactions/>
+<application-diagnostic-data>
+Size : 0
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+<Status Message>
+Successfully registered business transactions
+<Status Message/>
+<resolved-backend-calls>
+Size : 13
+<305>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:10.8.1.2 - (1095077), Name:URL, Value:jdbc:derby:./mmc-data/db, Name:VENDOR, Value:Apache Derby]]>
+<304>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80]]>
+<307>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:default:connection, Name:VENDOR, Value:H2]]>
+<306>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:osxltsturt.att.net, Name:PORT, Value:7777]]>
+<309>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:h2:./mmc-data/tracking/persistency, Name:VENDOR, Value:H2]]>
+<308>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getAgentsRunning, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<311>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getFlows, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.FlowService, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/flowService]]>
+<310>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getInfo, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<312>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:hasClusterEntitlement, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3_1.service.ClusterNodeSer, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3_1/clusterNodeService]]>
+<148>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/oauth2/token]]>
+<149>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/payment]]>
+<150>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/authorization]]>
+<302>::<NodeResolutionInfo[exitPointType=DB, properties=[Name:Database, Value:test, Name:Server Pool, Value:localhost:27017, Name:Vendor, Value:MONGODB]]>
+<resolved-backend-calls/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+
+[AD Thread Pool-Global1] 10 Jul 2014 13:55:38,768  INFO BusinessTransactionRegistry - REST - Sending Binary request - URL [/controller/instance/32/btregistration] 
+********BT Registration Data********
+<account-key>
+0c10b049-65ce-4ad8-8c48-b9258b3b3d1a
+<account-key/>
+<unregistered-backends>
+Size : 1
+<UnresolvedBackendCallInfo [resolutionInfo=NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80]], metaInfo=[], applicationId=0, createdOn=0, displayName=http://api.sandbox.paypal.com:80, visualizationProperties=null, applicationComponentNodeId=0, applicationComponentId=0]>
+<unregistered-backends/>
+<node-id>
+272
+<node-id/>
+
+[AD Thread Pool-Global1] 10 Jul 2014 13:55:38,771  INFO BusinessTransactionRegistry - REST
+Sending Binary payload Size : 1351 bytes
+[AD Thread Pool-Global1] 10 Jul 2014 13:55:38,781  INFO BusinessTransactionRegistry - REST - Reading Binary response - URL [null] - Size [4318]
+********BT Registration Data********
+<registered-backends>
+Size : 1
+<UnresolvedBackendCallInfo [resolutionInfo=NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80]], metaInfo=[], applicationId=11, createdOn=0, displayName=http://api.sandbox.paypal.com:80, visualizationProperties=null, applicationComponentNodeId=0, applicationComponentId=0]>
+<registered-backends/>
+<business-transactions>
+Size : 0
+<business-transactions/>
+<application-diagnostic-data>
+Size : 0
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<resolved-backend-calls>
+Size : 13
+<305>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:10.8.1.2 - (1095077), Name:URL, Value:jdbc:derby:./mmc-data/db, Name:VENDOR, Value:Apache Derby]]>
+<304>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80]]>
+<307>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:default:connection, Name:VENDOR, Value:H2]]>
+<306>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:osxltsturt.att.net, Name:PORT, Value:7777]]>
+<309>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:h2:./mmc-data/tracking/persistency, Name:VENDOR, Value:H2]]>
+<308>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getAgentsRunning, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<311>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getFlows, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.FlowService, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/flowService]]>
+<310>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getInfo, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<312>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:hasClusterEntitlement, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3_1.service.ClusterNodeSer, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3_1/clusterNodeService]]>
+<148>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/oauth2/token]]>
+<149>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/payment]]>
+<150>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/authorization]]>
+<302>::<NodeResolutionInfo[exitPointType=DB, properties=[Name:Database, Value:test, Name:Server Pool, Value:localhost:27017, Name:Vendor, Value:MONGODB]]>
+<resolved-backend-calls/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:55:58,289  INFO MetricSender - Sending REST request - URL [/controller/instance/32/metricregistration]
+<request>
+<node-id>272</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:395|Component:221|Average Block Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|BTs|BT:395|Component:221|Number of Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="BTM|BTs|BT:395|Component:221|Number of Very Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:395|Component:221|Calls per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:395|Component:221|Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:395|Component:221|Normal Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:395|Component:221|Average Wait Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|BTs|BT:395|Component:221|Stall Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:395|Component:221|Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:395|Component:221|Average Request Size"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|BTs|BT:395|Component:221|Average CPU Used (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<account-key>0c10b049-65ce-4ad8-8c48-b9258b3b3d1a</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:55:58,307  INFO MetricSender - REST Response Received - URL [/controller/instance/32/metricregistration]
+<request>
+<metric	id="17420"	name="BTM|BTs|BT:395|Component:221|Calls per Minute"/>
+<metric	id="17426"	name="BTM|BTs|BT:395|Component:221|Average Block Time (ms)"/>
+<metric	id="17419"	name="BTM|BTs|BT:395|Component:221|Average Response Time (ms)"/>
+<metric	id="17428"	name="BTM|BTs|BT:395|Component:221|Normal Average Response Time (ms)"/>
+<metric	id="17425"	name="BTM|BTs|BT:395|Component:221|Average CPU Used (ms)"/>
+<metric	id="17423"	name="BTM|BTs|BT:395|Component:221|Number of Very Slow Calls"/>
+<metric	id="17424"	name="BTM|BTs|BT:395|Component:221|Stall Count"/>
+<metric	id="17427"	name="BTM|BTs|BT:395|Component:221|Average Wait Time (ms)"/>
+<metric	id="17429"	name="BTM|BTs|BT:395|Component:221|Average Request Size"/>
+<metric	id="17422"	name="BTM|BTs|BT:395|Component:221|Number of Slow Calls"/>
+<metric	id="17421"	name="BTM|BTs|BT:395|Component:221|Errors per Minute"/>
+</request>
+

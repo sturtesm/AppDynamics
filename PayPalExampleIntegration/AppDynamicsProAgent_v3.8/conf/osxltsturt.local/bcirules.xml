@@ -1,0 +1,5 @@
+<multiple-inheritance-rules>
+    <instrumentation-properties>
+        <property name="bci-fixer-other-classes" value="org.apache.commons.httpclient.HttpMethodDirector,javax.naming.directory.InitialDirContext"/>
+    </instrumentation-properties>
+</multiple-inheritance-rules>

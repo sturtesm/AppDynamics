@@ -1,5 +1,6 @@
 'use strict'; 
 
+/**
 require("appdynamics").profile({
   controllerHostName: '127.0.0.1',
   controllerPort: 8090,
@@ -10,6 +11,7 @@ require("appdynamics").profile({
   nodeName: 'nodejs-osxltsturt', 
   debug: true //Debug is optional; defaults to false.
  });
+*/
 
 var Client = require('node-rest-client').Client;
 var http = require('http');

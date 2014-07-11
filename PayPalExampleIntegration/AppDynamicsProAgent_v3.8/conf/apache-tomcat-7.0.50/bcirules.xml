@@ -1,0 +1,6 @@
+<multiple-inheritance-rules>
+    <instrumentation-properties>
+        <property name="dynamic-servlet-classes" value="org.springframework.web.servlet.FrameworkServlet"/>
+        <property name="bci-fixer-other-classes" value="org.apache.commons.httpclient.HttpMethodDirector"/>
+    </instrumentation-properties>
+</multiple-inheritance-rules>

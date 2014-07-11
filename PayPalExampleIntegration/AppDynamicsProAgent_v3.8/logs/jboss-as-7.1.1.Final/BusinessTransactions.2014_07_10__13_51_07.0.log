@@ -1,0 +1,60 @@
+[Thread-0] 10 Jul 2014 13:51:08,336  INFO - Starting BT Logs at Thu Jul 10 13:51:08 EDT 2014
+[Thread-0] 10 Jul 2014 13:51:08,336  INFO - ###########################################################
+[Thread-0] 10 Jul 2014 13:51:08,336  INFO - Using Java Agent Version [Server Agent v3.8.0.0 GA #2014-03-28_20-02-12 rccf93f47227e735b90c44a389eb2c7c2a203d082 8-3.8.0.next]
+[Thread-0] 10 Jul 2014 13:51:08,336  INFO - Running IBM Java Agent [No]
+[http--127.0.0.1-8080-2] 10 Jul 2014 13:54:04,022  INFO - BT [1] Name [/jaxrs-sample/v1] Type [SERVLET] Custom [false]
+[http--127.0.0.1-8080-2] 10 Jul 2014 13:54:04,023  INFO - Discovery Stack 
+Thread Name:http--127.0.0.1-8080-2
+ID:116
+Time:Thu Jul 10 13:54:04 EDT 2014
+State:RUNNABLE
+Priority:5
+
+org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+org.jboss.weld.servlet.ConversationPropagationFilter.doFilter(ConversationPropagationFilter.java:62)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:877)
+org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:671)
+org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+java.lang.Thread.run(Thread.java:744)
+
+
+[http--127.0.0.1-8080-1] 10 Jul 2014 13:55:23,057  INFO - BT [2] Name [/jaxrs-sample/] Type [SERVLET] Custom [false]
+[http--127.0.0.1-8080-1] 10 Jul 2014 13:55:23,057  INFO - Discovery Stack 
+Thread Name:http--127.0.0.1-8080-1
+ID:115
+Time:Thu Jul 10 13:55:23 EDT 2014
+State:RUNNABLE
+Priority:5
+
+org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+org.jboss.weld.servlet.ConversationPropagationFilter.doFilter(ConversationPropagationFilter.java:62)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:877)
+org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:671)
+org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+java.lang.Thread.run(Thread.java:744)
+
+

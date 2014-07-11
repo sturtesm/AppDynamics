@@ -1,0 +1,128 @@
+[AD Thread Pool-Global0] 10 Jul 2014 13:50:34,966  INFO ErrorProcessor - REST - Sending Binary request - URL [/controller/instance/32/btregistration] 
+********BT Registration Data********
+<account-key>
+0c10b049-65ce-4ad8-8c48-b9258b3b3d1a
+<account-key/>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='Page Not Found : 404', name=Page Not Found : 404, diagnosticType=ERROR, configEntities=null, summary='HTTP error code : 404'}>
+<application-diagnostic-data/>
+<node-id>
+272
+<node-id/>
+
+[AD Thread Pool-Global0] 10 Jul 2014 13:50:34,968  INFO ErrorProcessor - REST
+Sending Binary payload Size : 1266 bytes
+[AD Thread Pool-Global0] 10 Jul 2014 13:50:34,981  INFO ErrorProcessor - REST - Reading Binary response - URL [null] - Size [3981]
+********BT Registration Data********
+<registered-backends>
+Size : 0
+<registered-backends/>
+<business-transactions>
+Size : 0
+<business-transactions/>
+<application-diagnostic-data>
+Size : 1
+<ERROR>::<{Page Not Found : 404=552}>
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<resolved-backend-calls>
+Size : 13
+<305>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:10.8.1.2 - (1095077), Name:URL, Value:jdbc:derby:./mmc-data/db, Name:VENDOR, Value:Apache Derby]]>
+<304>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80]]>
+<307>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:default:connection, Name:VENDOR, Value:H2]]>
+<306>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:osxltsturt.att.net, Name:PORT, Value:7777]]>
+<309>::<NodeResolutionInfo[exitPointType=JDBC, properties=[Name:MAJOR_VERSION, Value:1.3.164 (2012-02-03), Name:URL, Value:jdbc:h2:./mmc-data/tracking/persistency, Name:VENDOR, Value:H2]]>
+<308>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getAgentsRunning, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<311>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getFlows, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.FlowService, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/flowService]]>
+<310>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:getInfo, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3.service.MuleContextServi, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3/muleContextService]]>
+<312>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, properties=[Name:OPERATION_NAME, Value:hasClusterEntitlement, Name:SERVICE_NAME, Value:com.mulesoft.mmc.agent.v3_1.service.ClusterNodeSer, Name:TRANSPORT_URL, Value:https://localhost:7777/mmc-support/api/v3_1/clusterNodeService]]>
+<148>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/oauth2/token]]>
+<149>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/payment]]>
+<150>::<NodeResolutionInfo[exitPointType=HTTP, properties=[Name:HOST, Value:api.sandbox.paypal.com, Name:PORT, Value:80, Name:URI, Value:/v1/payments/authorization]]>
+<302>::<NodeResolutionInfo[exitPointType=DB, properties=[Name:Database, Value:test, Name:Server Pool, Value:localhost:27017, Name:Vendor, Value:MONGODB]]>
+<resolved-backend-calls/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:50:44,582  INFO MetricSender - Sending REST request - URL [/controller/instance/32/metricregistration]
+<request>
+<node-id>272</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Normal Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Average Response Time (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Classes|Total Classes Loaded"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Average End to End Latency (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Slow End to End Messages"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Classes|Current Loaded Class Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Threads|Current No. of Threads"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Max Available (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Used %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Stall Count"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|End to End Messages per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Calls per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="AVERAGE"	name="JVM|Process CPU Usage %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Heap|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="BTM|Application Summary|Number of Very Slow Calls"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Committed (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Used %"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Process CPU Burnt (ms/min)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="AVERAGE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	hole-fill-type="RATE_COUNTER"	cluster-rollup-type="COLLECTIVE"/>
+<metric	time-rollup-type="CURRENT"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<metric	time-rollup-type="SUM"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	hole-fill-type="REGULAR_COUNTER"	cluster-rollup-type="INDIVIDUAL"/>
+<account-key>0c10b049-65ce-4ad8-8c48-b9258b3b3d1a</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 10 Jul 2014 13:50:44,592  INFO MetricSender - REST Response Received - URL [/controller/instance/32/metricregistration]
+<request>
+<metric	id="5224"	name="JVM|Classes|Current Loaded Class Count"/>
+<metric	id="5296"	name="BTM|Application Summary|Calls per Minute"/>
+<metric	id="5230"	name="JVM|Memory:Non-Heap|Max Available (MB)"/>
+<metric	id="5298"	name="JVM|Process CPU Usage %"/>
+<metric	id="5287"	name="BTM|Application Summary|Infrastructure Errors per Minute"/>
+<metric	id="5234"	name="JVM|Memory:Non-Heap|Current Usage (MB)"/>
+<metric	id="5233"	name="JVM|Memory:Heap|Current Usage (MB)"/>
+<metric	id="5285"	name="BTM|Application Summary|Number of Very Slow Calls"/>
+<metric	id="5237"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"/>
+<metric	id="5297"	name="BTM|Application Summary|End to End Messages per Minute"/>
+<metric	id="5286"	name="BTM|Application Summary|Normal Average Response Time (ms)"/>
+<metric	id="5239"	name="JVM|Memory:Heap|Committed (MB)"/>
+<metric	id="5290"	name="BTM|Application Summary|Number of Slow End to End Messages"/>
+<metric	id="5225"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"/>
+<metric	id="5226"	name="JVM|Memory:Non-Heap|Committed (MB)"/>
+<metric	id="5227"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"/>
+<metric	id="5229"	name="JVM|Classes|Total Classes Loaded"/>
+<metric	id="5228"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"/>
+<metric	id="5299"	name="BTM|Application Summary|Number of Slow Calls"/>
+<metric	id="5291"	name="BTM|Application Summary|Average Response Time (ms)"/>
+<metric	id="5231"	name="JVM|Garbage Collection|Number of Major Collections Per Min"/>
+<metric	id="5292"	name="BTM|Application Summary|Average End to End Latency (ms)"/>
+<metric	id="5232"	name="JVM|Memory:Heap|Max Available (MB)"/>
+<metric	id="5235"	name="JVM|Process CPU Burnt (ms/min)"/>
+<metric	id="5236"	name="JVM|Threads|Current No. of Threads"/>
+<metric	id="5300"	name="BTM|Application Summary|Stall Count"/>
+<metric	id="5238"	name="JVM|Memory:Heap|Used %"/>
+<metric	id="5293"	name="BTM|Application Summary|Errors per Minute"/>
+<metric	id="5240"	name="JVM|Memory:Non-Heap|Used %"/>
+</request>
+

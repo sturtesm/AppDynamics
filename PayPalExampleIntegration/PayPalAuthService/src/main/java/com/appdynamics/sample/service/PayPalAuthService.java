@@ -98,6 +98,23 @@ public class PayPalAuthService {
 		
 		return authorization;
 	}
+	
+	@GET
+	@Path("/payments/payment")
+	@Produces("application/json")
+	public String payment() throws PayPalRESTException {
+		System.out.println("Got request for payment!!!");
+		
+		return "Payment initiated....";
+	}
+
+	
+	@GET
+	@Path("/oauth2/token")
+	public String token() throws PayPalRESTException {
+		return authenticate();
+	}
+	
 
 	private String getAuthorizationID(APIContext apiContext)
 			throws PayPalRESTException {
