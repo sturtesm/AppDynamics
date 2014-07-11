@@ -1,8 +1,0 @@
-{>"layouts/master" /}
-
-{<body}
-    <main role="main">
-        Result: {.result}
-        <h3><a href="/">Keep on buying!</a></h3>
-    </main>
-{/body}
