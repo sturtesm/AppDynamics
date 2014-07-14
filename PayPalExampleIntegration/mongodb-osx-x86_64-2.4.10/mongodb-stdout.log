@@ -116,3 +116,5 @@ Thu Jul 10 13:56:34.239 [initandlisten] connection accepted from 127.0.0.1:58910
 Thu Jul 10 13:56:34.240 [initandlisten] connection accepted from 127.0.0.1:58911 #55 (5 connections now open)
 Fri Jul 11 08:12:27.817 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 315ms
 Fri Jul 11 08:12:28.048 [TTLMonitor] query local.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:0 keyUpdates:0 locks(micros) r:217300 nreturned:0 reslen:20 217ms
+Mon Jul 14 08:51:04.410 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 264ms
+Mon Jul 14 08:51:04.964 [TTLMonitor] query local.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:0 keyUpdates:0 locks(micros) r:554169 nreturned:0 reslen:20 554ms
