@@ -38,28 +38,26 @@ import com.appdynamics.sample.rest.client.WebClientPoolHelper;
  * </p>
  * 
  * <p>
- * The servlet is registered and mapped to /login
+ * The servlet is registered and mapped to /accountBalance
  * </p>
  * 
  */
 @SuppressWarnings("serial")
-@WebServlet("/checkout")
-public class CheckoutServlet extends PaypalDemoServlet {
+@WebServlet("/accountBalance")
+public class AccountServlet extends PaypalDemoServlet {
 
 	static String PAGE_HEADER = "<html><head><title>Welcome to Our Online PayPal Store</title></head><body>";
 
 	static String PAGE_FOOTER = "</body></html>";
 
-	Logger logger = Logger.getLogger(CheckoutServlet.class);
+	Logger logger = Logger.getLogger(AccountServlet.class);
 
-	public CheckoutServlet() {
+	public AccountServlet() {
 		super();
 	}
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		String authToken = null;
-		String paymentInfo = null;
 
 		String doAbortParam = req.getParameter("abort");
 		String resetPool = req.getParameter("reset");
@@ -75,10 +73,8 @@ public class CheckoutServlet extends PaypalDemoServlet {
 				resetAuthWebClientPool();
 			}
 			else {
-				String userID = (abort) ? null : "Mr. Rogers";
-				authToken = callAuthService((doAbortParam != null), userID);
-
-				paymentInfo = initiatePayment(authToken);
+				String userId = (abort) ? null : "Steve S";
+				callAuthService((doAbortParam != null), null);
 			}
 		} catch (InvalidCardException e) {
 			logger.fatal("Handling invalid card format exception");
@@ -96,10 +92,7 @@ public class CheckoutServlet extends PaypalDemoServlet {
 		resp.setContentType("text/html");
 		PrintWriter writer = resp.getWriter();
 		writer.println(PAGE_HEADER);
-		writer.println("<h2>PayPal Response</h2>");
-		writer.println("Successfully submitted payment...</p>");
-		writer.println("<b>Athentication Token:</b>  " + authToken + "</p>");
-		writer.println("<b>Payment Authorization ID:</b>"  + paymentInfo);
+		writer.println("<h2>Account Balance Page</h3>");
 		writer.println(PAGE_FOOTER);
 		writer.close();
 	}
